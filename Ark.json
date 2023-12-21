@@ -1,74 +1,86 @@
 {
-	"ServerName":"Oasis[PVE] 3xGath,2xXP,3xT,InfW,Dragon,NoWipe",
-	"ButtonTxt1":"RULES",
-	"ButtonTxt2":"MODS",
-	"ButtonTxt3":"",
-	"ButtonTxt4":"",
-	"ButtonTxt5":"",
-	"LinkButtonTxt1":"DISCORD",
-	"LinkButtonTxt2":"",
-	"LinkButtonTxt3":"",
-	"LinkButtonTxt4":"",
-	"LinkButtonTxt5":"",
-	"LinkButton1":"https://discord.gg/3BWyCUQS",
-	"LinkButton2":"",
-	"Link1Button3":"",
-	"Link2Button3":"",
-	"Link3Button3":"",
-	"Link4Button3":"",
-	"Link1Button4":"",
-	"Link2Button4":"",
-	"Link3Button4":"",
-	"Link4Button4":"",
-	"Link1Button5":"",
-	"Link2Button5":"",
-	"Link3Button5":"",
-	"Link4Button5":"",
-	"Tab1Panelcount":1,
-	"Tab2Panelcount":1,
-	"Tab3Panelcount":1,
-	"Tab4Panelcount":1,
-	"Tab5Panelcount":1,
-	"BackgroundTab1":0,
-	"BackgroundTab2":0,
-	"BackgroundTab3":0,
-	"BackgroundTab4":0,
-	"BackgroundTab5":0,
-	"Background3Color":"",
-	"FontColorButtons":"",
-	"FontColorServerName":"",
-	"FontColorTabTitles":"",
-	"FontColorTabText":"",
-	"UseSteamBrowserLink1":true,
-	"UseSteamBrowserLink2":true,
-	"Tab1Title1":"SERVER RULES",
-	"Tab1Title2":"",
-	"Tab1Title3":"",
-	"Tab2Title1":"Active Mods",
-	"Tab2Title2":"",
-	"Tab2Title3":"",
-	"Tab3Title1":"",
-	"Tab3Title2":"",
-	"Tab3Title3":"",
-	"Tab4Title1":"",
-	"Tab4Title2":"",
-	"Tab4Title3":"",
-	"Tab5Title1":"",
-	"Tab5Title2":"",
-	"Tab5Title3":"",
-	"Tab1Text1":"Be Friendly * Dont Cheat * Dont Steal * Have Fun* ...",
-	"Tab1Text2":"",
-	"Tab1Text3":"",
-	"Tab2Text1":"946494 Gaia Storage\n941467 Gaia Crop Plot \n931626 Gaia Fishery \n928506 Cheat Death \n929902 Death Inventory Keeper \n933119 Kman High Durability All Temp Gear \n930688 Additional Weapons MW2022 \n930389 Better Dino Healing \n942542 Grindicator \n935408 Der Dino Finder \n931762 Ultimate Tranqs \n929868 Admin Tool \n929330 Gaia Collectors \n928650 Gaia Elixers \n929543 Imbue and Upgrade Stations \n932770 Teleporters \n928708 Custom Dino Levels \n933158 Alpha Everything \n928818 Egg Collector \n932822 Net Projectile \n934312 Galvanized Wolf \n929084 Better Forges \n928793 Pelayoris Cryo Storage \n932995 Tameable Bosses \n928501 Solo Farm Mod \n931119 WBUI2 \n929420 Super SpyGlass Plus \n939238 Elevator weight \n931874 Arkitect Structures Remastered \n939604 RR Homedeco and more \n929334 Seed Farm \n939764 more ridables \n941145 greenhouse glass \n938805 Dinosaur discovery \n935297 Natures Touch \n942574 admin stuff\n935031 Cool Chemistry",
-	"Tab2Text2":"",
-	"Tab2Text3":"",
-	"Tab3Text1":"",
-	"Tab3Text2":"",
-	"Tab3Text3":"",
-	"Tab4Text1":"",
-	"Tab4Text2":"",
-	"Tab4Text3":"",
-	"Tab5Text1":"",
-	"Tab5Text2":"",
-	"Tab5Text3":""
-	}
+  "WBUI2": {
+    "settings": {
+        "OpenButton": 0,
+        "HideIcon": false,
+        "HideIconAfter": 60,
+        "IconURL": "https://i.imgur.com/OZ6xOjY.png",
+        "DisableIconText": false,
+        "IconPosition": 0,
+        "IconTextColor": 0,
+        "OpenOnStart": true,
+        "OpenOnStartOnlyNewPlayers": true,
+        "UpdateInterval": 12
+      },
+    "tabs": [
+      {
+        "tab1": {
+          "layout": 1,
+          "buttontext": "<RichColor Color=\"1,0,0,1\">1 Box layout</>",
+          "title1": "Welcome to WBUI2!",
+          "text1": "Your text could be here.\n\nBTW, you can add as many tabs/links as you want, just follow the syntax... Until it doesnt fit anymore\n\nCheckout the available predefined colors and the syntax for a colorized and bigger letters for the general text:\n\n<TextStyle.LightBlue><TextStyle.LightBlue>LightBlue Text</></>\n<TextStyle.Red><TextStyle.Red>Red Text</></>\n<TextStyle.Green><TextStyle.Green>Green Text</></>\n<TextStyle.Blue><TextStyle.Blue>Blue Text</></>\n<TextStyle.Yellow><TextStyle.Yellow>Yellow Text</></>\n<TextStyle.Orange><TextStyle.Orange>Orange Text</></>\n<TextStyle.Violet><TextStyle.Violet>Violet Text</></>\n<TextStyle.White><TextStyle.White>White Text</></>\n<TextStyle.Black><TextStyle.Black>Black Text</></> < Yes its Black Text on a Black background\n\nYou can use the ARKML syntax to colorize the titles, normal text and button texts. ARKML uses RGBA values to define the colors. Here are some examples:\n\n<RichColor Color=\"1,0,0,1\"><RichColor Color=\"1,0,0,1\">Red Text</></>\n<RichColor Color=\"0,1,0,1\"><RichColor Color=\"0,1,0,1\">Green Text</></>\n\nPlease keep in mind that you <TextStyle.Red>NEED TO</> unescape the doublequotes with a backslash!!!",
+          "imageurl": "https://i.imgur.com/mGt3cAF.png"
+        }
+      },
+      {
+        "tab2": {
+          "layout": 2,
+          "buttontext": "2 Box layout",
+          "title1": "Left title",
+          "title2": "Right title",
+          "text1": "This text goes into the left box",
+          "text2": "This text goes into the right box",
+          "imageurl": "https://i.imgur.com/mGt3cAF.png"
+        }
+      },
+      {
+        "tab3": {
+          "layout": 3,
+          "buttontext": "3 Box layout",
+          "title1": "Left title",
+          "title2": "Top right title",
+          "title3": "Bottom left title",
+          "text1": "This text goes into the left box",
+          "text2": "This text goes into the top right box",
+          "text3": "This text goes into the bottom right box",
+          "imageurl": "https://i.imgur.com/mGt3cAF.png"
+        }
+      },
+      {
+        "tab4": {
+          "layout": 4,
+          "buttontext": "4 Box layout",
+          "title1": "Top left title",
+          "title2": "<TextStyle.Green>Top right title</>",
+          "title3": "<TextStyle.Blue>bottom left title</>",
+          "title4": "<TextStyle.Yellow>bottom right title</>",
+          "text1": "<TextStyle.Orange>This text goes into the top left box</>",
+          "text2": "<TextStyle.Violet>This text goes into the top right box</>",
+          "text3": "<TextStyle.Red>This text goes into the bottom left box</>",
+          "text4": "<TextStyle.White>This text goes into the bottom right box</>",
+          "imageurl": "https://i.imgur.com/mGt3cAF.png"
+        }
+      }
+    ],
+    "links": [
+      {
+        "link1": {
+          "text": "Link to Wiki",
+          "url": "https://github.com/DC-Modding/WBUI2-Wiki/wiki"
+        }
+      },
+      {
+        "link2": {
+          "text": "Link to discord",
+          "url": "https://discord.com/invite/K7NyrTV"
+        }
+      },
+      {
+        "link3": {
+          "text": "Link to google",
+          "url": "https://google.com"
+        }
+      }
+    ]
+  }
+}
