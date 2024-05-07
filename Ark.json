@@ -1,86 +1,92 @@
 {
-  "WBUI2": {
-    "settings": {
-        "OpenButton": 0,
-        "HideIcon": false,
-        "HideIconAfter": 60,
-        "IconURL": "https://i.imgur.com/OZ6xOjY.png",
-        "DisableIconText": false,
-        "IconPosition": 0,
-        "IconTextColor": 0,
-        "OpenOnStart": true,
-        "OpenOnStartOnlyNewPlayers": true,
-        "UpdateInterval": 12
-      },
-    "tabs": [
-      {
-        "tab1": {
-          "layout": 1,
-          "buttontext": "<RichColor Color=\"1,0,0,1\">1 Box layout</>",
-          "title1": "Welcome to WBUI2!",
-          "text1": "Your text could be here.\n\nBTW, you can add as many tabs/links as you want, just follow the syntax... Until it doesnt fit anymore\n\nCheckout the available predefined colors and the syntax for a colorized and bigger letters for the general text:\n\n<TextStyle.LightBlue><TextStyle.LightBlue>LightBlue Text</></>\n<TextStyle.Red><TextStyle.Red>Red Text</></>\n<TextStyle.Green><TextStyle.Green>Green Text</></>\n<TextStyle.Blue><TextStyle.Blue>Blue Text</></>\n<TextStyle.Yellow><TextStyle.Yellow>Yellow Text</></>\n<TextStyle.Orange><TextStyle.Orange>Orange Text</></>\n<TextStyle.Violet><TextStyle.Violet>Violet Text</></>\n<TextStyle.White><TextStyle.White>White Text</></>\n<TextStyle.Black><TextStyle.Black>Black Text</></> < Yes its Black Text on a Black background\n\nYou can use the ARKML syntax to colorize the titles, normal text and button texts. ARKML uses RGBA values to define the colors. Here are some examples:\n\n<RichColor Color=\"1,0,0,1\"><RichColor Color=\"1,0,0,1\">Red Text</></>\n<RichColor Color=\"0,1,0,1\"><RichColor Color=\"0,1,0,1\">Green Text</></>\n\nPlease keep in mind that you <TextStyle.Red>NEED TO</> unescape the doublequotes with a backslash!!!",
-          "imageurl": "https://i.imgur.com/mGt3cAF.png"
-        }
-      },
-      {
-        "tab2": {
-          "layout": 2,
-          "buttontext": "2 Box layout",
-          "title1": "Left title",
-          "title2": "Right title",
-          "text1": "This text goes into the left box",
-          "text2": "This text goes into the right box",
-          "imageurl": "https://i.imgur.com/mGt3cAF.png"
-        }
-      },
-      {
-        "tab3": {
-          "layout": 3,
-          "buttontext": "3 Box layout",
-          "title1": "Left title",
-          "title2": "Top right title",
-          "title3": "Bottom left title",
-          "text1": "This text goes into the left box",
-          "text2": "This text goes into the top right box",
-          "text3": "This text goes into the bottom right box",
-          "imageurl": "https://i.imgur.com/mGt3cAF.png"
-        }
-      },
-      {
-        "tab4": {
-          "layout": 4,
-          "buttontext": "4 Box layout",
-          "title1": "Top left title",
-          "title2": "<TextStyle.Green>Top right title</>",
-          "title3": "<TextStyle.Blue>bottom left title</>",
-          "title4": "<TextStyle.Yellow>bottom right title</>",
-          "text1": "<TextStyle.Orange>This text goes into the top left box</>",
-          "text2": "<TextStyle.Violet>This text goes into the top right box</>",
-          "text3": "<TextStyle.Red>This text goes into the bottom left box</>",
-          "text4": "<TextStyle.White>This text goes into the bottom right box</>",
-          "imageurl": "https://i.imgur.com/mGt3cAF.png"
-        }
-      }
-    ],
-    "links": [
-      {
-        "link1": {
-          "text": "Link to Wiki",
-          "url": "https://github.com/DC-Modding/WBUI2-Wiki/wiki"
-        }
-      },
-      {
-        "link2": {
-          "text": "Link to discord",
-          "url": "https://discord.com/invite/K7NyrTV"
-        }
-      },
-      {
-        "link3": {
-          "text": "Link to google",
-          "url": "https://google.com"
-        }
-      }
-    ]
-  }
+"WBUI2": {
+"settings": {
+"OpenButton": 0,
+"HideIcon": true,
+"HideIconAfter": 30,
+"IconURL": "https://i.imgur.com/FI5gqlf.png",
+"DisableIconText": false,
+"IconPosition": 0,
+"IconTextColor": 0,
+"OpenOnStart": true,
+"OpenOnStartOnlyNewPlayers": true,
+"UpdateInterval": 12
+},
+"tabs": [
+{
+"tab1": {
+"layout": 1,
+"buttontext": "Welcome",
+"title1": "Welcome to ArkVader Svartalfheim.",
+"text1": "Welcome to ArkVader on the beautiful mod map Svartalfheim. If you are not familiar with Svartalfheim, it is VERY cool map hand crafted with many beautiful build areas, many deep caves, and lots to see and explore. Svartalfheim is designed to be a no flyer map which means non modded flyers will not spawn here. However, there are modded flyers that do spawn here and you can transfer flyers over from our other servers listed below. With that said though it is actually pretty neat without flyers too because it lets you focus on a few dino's you normally would not. ArkVader Svartalfheim is a Cluster server that is connected to ArkVader Scorched Earth, ArkVader Forglar Primal Chaos, ArkVader Amissa Omega Ascended and ArkVader Descended coming soon.\n\nPoke around in here a bit and check back often for news, upcoming events, server info, etc. Make sure to check a few of the tabs up top for important information such as where to locate our in game COMMUNITY CENTER, server just launched so currently under construction. \n\n Access this info at anytime by pressing F1 in game for PC or Radial Dial for console, Esc to close the window.\n\n\n\nLike this server? Just search for ArkVader in server list to see all of our current servers.\n\n\nArkVader Scorched Earth Server.\nArkVader/Scorched/PvE/3XP/10xH/10xT/InfWt/Cluster\n\nArkVader Forglar Primal Chaos Server.\nArkVader/Primal/PvE/3XP/20xH/FastT/InfWt/Cluster\n\nArk Ascended Omega Ascended.\nArkVader/OmegaAscended/3XP/10xH/InsT/InfW/NoWipe/Cluster.\n\n Just search server list for ArkVader, you'll see em!",
+"imageurl": "https://i.imgur.com/0P678Qf.png"
+}
+},
+{
+"tab2": {
+"layout": 1,
+"buttontext": "Community Center",
+"title1": "Community Center",
+"text1": "The community center is located at 82 Latitude 32 Longitude. At the community center you will find access to beginner build benches, community events, server rules, cool people, and definitely check out Ricky's Dino shop, coming soon, to get some rather unique Dino's and whatever else he may be selling over there. If you would like to sell your own goods you may do so using the Trade bench in game. If you have any questions setting this up, ask an admin in game or in Discord. The currency in game is currently Metal Ingot.",
+"imageurl": "https://i.imgur.com/0P678Qf.png"
+}
+},
+{
+"tab3": {
+"layout": 1,
+"buttontext": "Server Info",
+"title1": "Server Info",
+"text1": "Server is crossplay; PC(Steam), PC(Windows Store), Xbox, PS5.\nSupply drop loot is all custom, is awesome, and def worth checking out.\nSwim speed has been increased to 6x. \nBreeding, egg hatching and baby growth has been speed up substantially. \nResource gathering has been increased to 5x.\nTaming has been increased to 10x.\nXP is increased to 3x.\nWeight is infinite for self and dino's, you will need to put one point into dino weight before it becomes infinite.\nStacks are 9999 for most things.\nCreature levels are raised to 300 max before tame.\nNo Plan to Wipe server, if that changes it will be discussed with the community and updated here.\nServer is PVE and raiding is disabled.\nAll boxes, doors, containers, etc are locked by default.\nNo Fall damage, well, unless you fall for longer than 30 seconds, then you prob die, don't do that.\n\nWiping of ones belonging is based on a decay timer and the type of material used to build your base. If you are inactive for a certain amount of days your home and possessions will be wiped. These days are as follows: \nThatch: 16d \nWood: 16d \nAdobe: 16d \nStone: 24d \nMetal: 32d \nGreenhouse: 32d \nTek: 40d \n\nMake sure to keep your timers reset by visiting your bases. Just logging in is not enough, you need to be near enough to your base to physically render them in.\n\nIf we missed anything crucial info here, please DM an admin in Discord, Bman Gaming.\n\nhttps://discord.gg/vqqKzC2 \n\nOr just click the Discord button below.",
+"imageurl": "https://i.imgur.com/0P678Qf.png"
+}
+},
+{
+"tab4": {
+"layout": 2,
+"buttontext": "READ ME&Hints",
+"title1": "READ ME",
+"title2": "Hints",
+"text1": "Transferring items and dino's through servers can be hit or miss, this is something Wild Card needs to address. Be careful what you try to move to other servers. If you do lose anything you may contact an admin for support.",
+"text2": "All items are kept on death.\n\nAdd one point to dino weight to make it infinite.\n\nDead dino's can be brought back to life by using Omega Dino Storage remote. This only works if your Dino is not eaten.\n\nResource Gatherer's have been added and the template to make element is cheap as is the AA Grinder.\n\nLook for and craft the Multi-tool, this rolls a Pick, Hatchet, Sickle, and Club all in one tool, aka one spot on your bar.\n\nNetguns will be your best friend and it is reusable, get this!\n\nAll engrams can be unlocked using Crazy Potions unlock engram potion, if you desire to do so.\n\nCan't find a specific resource? Check the teleporters, players will often place these down and make them public for resource zones.\n\nWhen placing points into stamina, speed, food, water and Fortitude you will get a little more bang for your buck, same for your dino's.\n\nYou could say there are more cool things in server info, you be the boss, but make sure to check it out. \n\nMore to come, check back often.",
+"imageurl": "https://i.imgur.com/0P678Qf.png"
+}
+},
+{
+"tab5": {
+"layout": 2,
+"buttontext": "Mods&Drops",
+"title1": "Mods",
+"title2": "Drops",
+"text1": "This will soon be populated with a mod list but for now, you will find an active list of mods installed on this server when you join the server. \n\nTo find mod specific information, visit the link below and search for the name of the mod.\n\nhttps://www.curseforge.com/ark-survival-ascended\n\nOr just click the CurseForge button below.",
+"text2": "Drops are custom and contain some pretty good loot, worth checking out. Yellow - Kibble, Eggs, Resources, Dyes.\nGreen - Tools, Structures, Benches, Reusable tools.\nBlue - Armor, Scuba, Weapons, Ammo, Tranqs, Attachments.\nPurple - Chibi's, Skins, Potions, Consumables, Saddles.\nRed - Tribute, Artifacts, High Tier Resources, High Tier Weapons. 4/30/24",
+"imageurl": "https://i.imgur.com/0P678Qf.png"
+}
+},
+{
+"tab6": {
+"layout": 2,
+"buttontext": "Rules&Admin",
+"title1": "Rules",
+"title2": "Admin",
+"text1": "Be kind - Hate speech, Racism, Homophobia, including names will not be tolerated! Admins have the right to ban anyone without warning if any rules are broken.\nThis is a PVE community so be cool, no drowning, griefing, stealing, etc.\nPlease keep your builds to one area, you can have multiple bases but please don't place foundations or pillars everywhere in an attempt to claim future land.\nKeep the map accessible to other players, do not block pathways with buildings.\nNo offline or mass breeding, this lags out the server and could result in wipe to dino's and structures.\nMax total dino's out of cryo is 25, please keep large breeds reduced to less than 3 out of cryo.\n\n These rules are in place for you. They will all help to keep the server running smoothly and allow ample fun. Be respectful out there and have fun!",
+"text2": "Admins in game are currently as follows; Ricky, Goose, Spyke, Ark Alpha or Bman.\n\nIf you have any issues in game please contact one of these admins. If you are unable to find any in game please join Discord, someone is almost always monitoring this.",
+"imageurl": "https://i.imgur.com/0P678Qf.png"
+}
+}
+],
+"links": [
+{
+"link1": {
+"text": "Join Discord",
+"url": "https://discord.gg/vqqKzC2"
+}
+},
+{
+"link2": {
+"text": "CurseForge",
+"url": "https://www.curseforge.com/ark-survival-ascended"
+}
+}
+]
+}
 }
